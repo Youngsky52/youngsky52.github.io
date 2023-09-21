@@ -152,7 +152,7 @@ li a:hover{
 /* -----------presentation------------------ */
 
 .pre{
-    height: 630px;
+    height: 660px;
     background:url(img/presenta3.jpg) fixed 80% 95%;
     background-repeat: repeat;
     background-size: cover;
@@ -171,26 +171,26 @@ li a:hover{
 @keyframes slaid {
 
     0%{
-        background:url(img/imgs0.jpg) fixed 20% 50% ;
+        background:url(img/imgs0.jpg) fixed center;
         background-size: cover;
     }
 
     40%{
-        background:url(img/imgs1.jpg) fixed ;
+        background:url(img/imgs1.jpg) fixed center;
         background-size: cover;
     }
    
     60%{
-        background:url(img/imgs2.jpg) fixed  ;
+        background:url(img/imgs2.jpg) fixed center ;
         background-size: cover;
     }
     80%{
-        background:url(img/imgs8.jpg) fixed  ;
+        background:url(img/imgs8.jpg) fixed  center;
         background-size: cover;
     }
     100%{
         background-size: cover;
-        background:url(img/imgs3.jpg) 100% fixed  ;
+        background:url(img/imgs3.jpg) 100% fixed  center ;
     }
 
 
