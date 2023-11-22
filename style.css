@@ -18,7 +18,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    background-color:gray ;
+    background-color:black .50 ;
     
     opacity: 1;
     position: fixed;
@@ -152,7 +152,7 @@ li a:hover{
 /* -----------presentation------------------ */
 
 .pre{
-    height: 660px;
+    height: 600px;
     background:url(img/imgs0.jpg) fixed 80% 95%;
     background-repeat: repeat;
     background-size: cover;
