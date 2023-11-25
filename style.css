@@ -252,9 +252,7 @@ border-radius: 10%;
      background: #000 ;
      color: white;
  }
- .secp3:active{
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
  }
  @media (max-width: 600px){
      *{
