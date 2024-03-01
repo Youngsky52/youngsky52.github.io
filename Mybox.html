@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play It Yourself</title>
+  <style type="text/css">
+    .lightbox {
+      display:relative; /* helps us center the lightbox-content */
+      /* make the lightbox occupy the entire page */
+      position: fixed;
+      top: -200%; /* position the lightbox above the top edge */
+      left: 0;
+      overflow:scroll;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9); /* black with 0.7 opacity */
+      transition-duration: 2s; /* set the duration of the slide down effect */
+    }
+    .lightbox:target {
+      top: 0; /* cover the entire screen */
+    }
+    .lightbox-content {
+      display: table-cell;
+      vertical-align:start; /* vertically center */
+      text-align: center; /* horizontally center */
+    }
+    .close {
+      /* position the CLOSE button to the top-right corner */
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    
+      /* style the close button */
+      font-size: 20px;
+      font-weight: 300;
+      text-decoration: none;
+      color: white;
+    }
+    
+    /* make the image responsive */
+    img {
+      max-width: 50%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <a href="#example"> Show example lightbox </a>
+  
+  <div class="lightbox" id="example">
+    <a href="#" class="close">CLOSE</a>
+    <div class="lightbox-content">
+      <img src="img/moi.png" />
+<h2>klauzabusiness@gmail.com 
+japhetsamba52@gmail.com
+klauzabusiness@gmail.com
+FHF de
+des</h2>
+<h2>klauzabusiness@gmail.com 
+japhetsamba52@gmail.com
+klauzabusiness@gmail.com
+FHF de
+des</h2>
+
+<h2>klauzabusiness@gmail.com 
+japhetsamba52@gmail.com
+klauzabusiness@gmail.com
+FHF de
+des</h2>
+<h2>klauzabusiness@gmail.com 
+japhetsamba52@gmail.com
+klauzabusiness@gmail.com
+FHF de
+des</h2>
+<h2>klauzabusiness@gmail.com 
+japhetsamba52@gmail.com
+klauzabusiness@gmail.com
+FHF de
+des</h2>
+</div>
+  </div>
+</body>
+</html>

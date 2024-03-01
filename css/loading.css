@@ -1,0 +1,81 @@
+h3{
+  border: 3px dotted #41D63D;
+  width: 100px;
+  height: 100px;
+  color:#00FFE9;
+  border-radius: 50%;
+  animation-name: load;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+
+  
+}
+
+@keyframes load{
+  
+ from {
+   border-top-style: none;
+   border-color:#3DD0D6;
+border-left:0px;
+transform:rotate(0deg);
+    border-color:#63F2D5;
+  }
+  
+  to{
+border-color: #3798F7;
+border-left:0px;
+border-top:0px;
+border-color: #00FF37;
+transform:rotate(360deg);
+  }
+  
+   
+}
+
+#loading{
+    
+    background: #000000 ;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    opacity: ;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+   
+ }
+ 
+ h2{
+   color:#ff006a;
+   animation-name:lod;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+ }
+ 
+ @keyframes lod{
+   
+   from{
+    
+     opacity: 1;
+     color: lightgreen;
+   }
+   
+   to{
+   
+     opacity: 0;
+     
+     
+   
+   
+   }
+   
+ }

@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1) 2s;
+}
+
+
+
+h2{
+    font-family: Playfair Display;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    
+}
+
+.c{
+    margin-top: 6rem;
+    
+}
+
+
+.nav2{
+   
+transition: cubic-bezier(0.215, 0.610, 0.355, 0.125) 1s;
+  
+}
+
+button{
+    outline: none;
+}
+
+.slad{
+   
+    width: 100%;
+    height: 600px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    transition-duration: 0.5s;
+    padding-left:20px;
+   
+    
+}
+p:hover{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+li a:hover{
+    color: lightgreen;
+}
+
+
+
+.carousel{
+    margin:0 auto;
+}
+
+.w-m{
+
+    max-height: 450px;
+    max-width: 350px;
+    margin: 0 auto;
+}
+   
+
+h1{
+    
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-weight: bolder;
+    position:absolute ;
+    margin-left: 45vw;
+  font-family: Dancing Script;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+
+  font-style: italic;
+
+    
+}
+
+
+
+.cont{
+    margin:0 auto;
+    
+}
+
+.perso{
+    width: 150px;
+    height: 150px;
+    border-radius:10%;
+    background-color:rgba(0, 0, 0, 0.4);
+    /* border: 8px double #fff;  */
+    margin: 20px;
+    overflow: hidden;
+}
+
+.presenta{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid ;
+    box-shadow: -8px -8px 15px , 5px 5px 15px;
+    background: url('../img/pexels-pixabay-50594.jpg')50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.item{
+    margin:10px;
+    margin-top: 15px;
+    /* border: 1px solid; */
+    height: 150px;
+    width:50%;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Genev;
+    color: #72d2ff;
+   
+    background-color:rgba(0, 0, 0, 0);
+}
+
+
+
+i{
+    color: lightgreen;
+    font-size: 3rem;
+}
+
+
+i:hover{
+    color:white;
+    font-size: 3.2rem;
+  
+    border-radius: 50%;
+}
+
+.bg-01{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+span{
+    color: lightgreen;
+}
+
+.name{
+
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+
+.downer a{
+    width: 55px;
+    height: 55px;
+     
+    text-align: center;
+    border-radius: 50%;
+    padding: 0px;
+    background-color:violet;
+    position:fixed;
+    bottom: 60px;
+    font-weight:bold;
+    font-size: 35px;
+    text-decoration: none;
+    padding:0px 10px;
+    color: black;
+    right: 25px;
+    cursor: pointer;
+}
+
+
+p:hover{
+    color:violet;
+}
+
+.car{
+
+    box-shadow: 8px 4px 15px ;
+    width: 100%;
+
+    margin:20px;
+}
+
+
+.s3{
+
+    background: url('../img/pexels-cottonbro-studio-4065906.jpg')fixed 50%;
+    background-size: cover;
+     
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cont_content{
+    width: 80%;
+       margin: 20px;
+       padding: 25px;
+       background-color: transparent;
+       color: #fff;
+       box-shadow: 0px 5px 10px ;
+      margin: 0 auto;
+      box-shadow: 0px 15px 35px 6px black;
+   }
+   
+   .ico1{
+       display: flex;
+       margin-bottom: 15px;
+       background-color: lightgreen;
+       padding: 10px;
+       border-radius: 20px;
+   
+   }
+   .ico1:last-child{
+       margin-bottom: 0px;
+   
+   }
+   
+   .ico1 > i{
+       
+   min-width:70px;
+   padding: 10px;
+   text-align: center;
+   background-color: lightgrey;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   color: #ff006a;
+   }
+   
+   .ico1:hover > i{
+   
+       background: #98049C;
+       color:#fff ;
+       
+   }
+   
+   .ico1 > input[type="text"], input[type="email"], .ico1 > textarea {
+   
+       outline: none;
+       border: none;
+       padding: 10px;
+       border: 1px solid lightgray;
+       border-top-right-radius: 20px;
+       border-bottom-right-radius: 20px;
+       width: 100%;
+       
+   } 
+   
+   .contact{
+       align-items: center;
+       justify-content: space-around;
+       text-align: center;
+       height: auto;
+       width: 50%;
+       background-color: #111;
+       border:outset;
+          color: #fff;
+          margin:0 auto;
+          margin-bottom: 20px;
+          box-shadow:0px 15px 30px #ff006a;
+          padding-top: 30px;
+          padding-bottom: 40px;
+   } 
+   
+   
+.env > input[type="submit"]{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 105%;
+    padding: 8px;
+    color: violet;
+    margin-left: 10%;
+    background: #fff;
+    transition-duration: .7s;
+}
+
+.env > input[type="submit"]:hover{
+color: #fff;
+background: violet;
+}
+
+
+
+
+.f{
+    
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: #E5E6F6;
+}
+
+center:hover{
+  box-shadow: -5px -5px 12px violet;
+  
+}
